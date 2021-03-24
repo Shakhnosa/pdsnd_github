@@ -54,7 +54,7 @@ def get_filters():
         elif time == 'all':
             break
         else:
-            print("You have written incorrectly,please write again: ")
+            print("You entered a wrong city name, please write again: ")
 
     print(city)
     print(month)
@@ -197,7 +197,7 @@ def user_stats(df):
 
 
 def main():
-    pd.set_option('display.max_columns',200)
+    pd.set_option('display.max_columns',180)
 
     while True:
         city, month, day = get_filters()
