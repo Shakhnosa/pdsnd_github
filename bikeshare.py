@@ -54,7 +54,7 @@ def get_filters():
         elif time == 'all':
             break
         else:
-            print("You have written incorrectly,please write again: ")
+            print("You entered a wrong city name, please write again: ")
 
     print(city)
     print(month)
